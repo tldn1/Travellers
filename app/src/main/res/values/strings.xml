@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Travellers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">Hi, this application represents simple guide app in which tourists can rent \n local people to guide them through tourist destinations.\nCopyright Muamer Beginović.</string>
+    <string name="hire">HIRE</string>
+    <string name="welcome">WELCOME TO GUIDE HIRE APP</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="finish">FINISH</string>
+    <string name="next"><![CDATA[NEXT >>]]></string>
+    <string name="your_information">YOUR INFORMATION</string>
+    <string name="name">NAME</string>
+    <string name="arrival_date">ARRIVAL DATE</string>
+    <string name="arrival_time">ARRIVAL TIME</string>
+    <string name="howLong">HOW LONG YOU NEED GUIDE</string>
+    <string name="guide_information">GUIDE INFORMATION</string>
+    <string name="gender">GENDER</string>
+    <string name="age">AGE</string>
+    <string name="language">LANGUAGE</string>
+    <string name="name_of_your_guide_is">Name of your guide is:</string>
+    <string name="guide_will_wait_on_station">Guide will wait on station:</string>
+    <string name="price_is">Price is:</string>
+    <string name="guides_image">Guides Image</string>
+    <string-array name="choices">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+    <string-array name="choicesAge">
+        <item> less then 30 </item>
+        <item> more then 30 </item>
+    </string-array>
+    <string-array name="choicesLanguage">
+        <item> English</item>
+        <item> France</item>
+        <item> Mandarian</item>
+        <item> Serbian</item>
+        <item> Portugise</item>
+        <item> Spain</item>
+    </string-array>
+</resources>

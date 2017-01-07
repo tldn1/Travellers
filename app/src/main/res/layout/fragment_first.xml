@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context="com.tldn1.travellers.fragments.FirstFragment">
+
+    <TextView
+        android:textColor="@color/colorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/your_information"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/box_background_shape"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:textColor="@color/colorText"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_state"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/name"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/btnName" />
+
+        <Button
+            android:textColor="@color/colorText"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_state"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/arrival_date"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/btnDate" />
+        <Button
+            android:textColor="@color/colorText"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/button_state"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/arrival_time"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/btnTime" />
+
+        <Button
+            android:textColor="@color/colorText"
+            android:background="@drawable/button_state"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/howLong"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:id="@+id/btnLong" />
+    </LinearLayout>
+
+
+</RelativeLayout>
